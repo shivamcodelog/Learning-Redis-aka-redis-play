@@ -1,0 +1,25 @@
+{
+  "name": "email-queue-redis_list",
+  "version": "1.0.0",
+  "description": "redis play",
+  "keywords": [
+    "redis",
+    "db"
+  ],
+  "license": "ISC",
+  "author": "sunflower",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0"
+  
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
