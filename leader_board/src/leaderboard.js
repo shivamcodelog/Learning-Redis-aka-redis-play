@@ -97,4 +97,3 @@ app.get("/leaderboard/:id/rank" , async(req,res)=>{
 app.listen(port, () => {
     console.log("Server running at PORT:", port)
 })
-
